@@ -1,0 +1,11 @@
+{
+  "name": "Minuto News",
+  "short_name": "Minuto News",
+  "description": "Mussum Ipsum, cacilds vidis litro abertis. Sapien in monti palavris qui num significa nadis i pareci latim.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [
+  ],
+  "background_color": "#FFF",
+  "theme_color": "#ad3535"
+}

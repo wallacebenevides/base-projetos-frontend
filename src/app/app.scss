@@ -1,0 +1,50 @@
+//helpers
+@import "../style/mixins";
+//layout
+.limit {
+    max-width: 1260px;
+    margin-right: auto;
+    margin-left: auto;
+   }
+   .block__container {
+    box-sizing: content-box;
+    margin: 0 auto 40px;
+    max-width: 1260px;
+    padding: 0 10px;
+}
+.header__titulo {
+  margin-bottom: 2em;
+  text-align: center;
+  @include mq('tablet-wide') {
+    text-align: justify;
+  }
+}
+
+  .font-1{
+      text-transform: uppercase;
+      color: #211f1f;
+      font-size: 42px;
+      font-weight: 700;
+      font-family: -webkit-body;
+      font-family: body;}
+
+  .f-left {
+    float: left; }
+
+  .f-right {
+    float: right; }
+
+  img {
+    vertical-align: middle; }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: .5; }
+    to {
+      opacity: 1; } }
+
+  @keyframes fade {
+    from {
+      opacity: .5; }
+    to {
+      opacity: 1; } }

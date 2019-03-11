@@ -1,0 +1,15 @@
+|{% extends "redesenho/pagina.html" %} 
+|{% block include_head_template %}
+//- HEADER
+//- mixins
+head
+    include util/variables.pug
+    include includes/head.pug
+|{% endblock include_head_template %} 
+
+//- MAIN
+|{% block mainContent %}
+body
+    include componentes/main.pug
+    include componentes/footer.pug
+|{% endblock %}
